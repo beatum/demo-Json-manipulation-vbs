@@ -85,7 +85,7 @@ End Function
 }
 ```
 
-##### get data by index:
+##### member access:
 
 ``` vbscript
     'convert to JSON object
