@@ -23,6 +23,7 @@ Function GetByIndex(jsonVariant, Index)
     Set engine = GetScriptControlForJs()
     Set GetByIndex = engine.Run("getByIndex", jsonVariant, Index)
 End Function
+
 'gets by property
 Public Function GetByProperty(jsonVariant, propertyName)
     Set engine = GetScriptControlForJs()
